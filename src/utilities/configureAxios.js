@@ -3,7 +3,7 @@ import {notification} from 'antd'
 import {get} from 'lodash';
 
 const axiosConfiguration = () => axios.create({
-    baseURL:"https://api2.cedarwood.squareboat.info/api/v1",
+    baseURL:"Your Base Url Goes Here    ",
     timeout:30000
 })
 
